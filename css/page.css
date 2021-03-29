@@ -1,0 +1,594 @@
+
+/* body{
+    background-color: black;
+}
+header{
+    position: fixed;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #000000;
+    border-bottom: 2px solid white;
+}
+header div.logoWrap{
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 0 20px;
+}
+header div.logoWrap span{
+    position: absolute;
+    top: 36px;
+    width: 20px;
+    line-height: 20px;
+    color: snow;
+
+}
+header div.logoWrap span:first-child{
+    left: 5%;
+}
+header div.logoWrap span:nth-of-type(2){
+    left: 12%;
+}
+header div.logoWrap h1{
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+}
+header div.logoWrap h1 a{
+    text-decoration: none;
+    font-family: 'SDSamliphopangche_Outline';
+    color: snow;
+}
+header div.logoWrap h1 a:visited{
+
+}
+header div.logoWrap h1 a:hover{
+
+}
+header div.logoWrap input{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    width: 35px;
+    height: 35px;
+}
+div.fieldsetWrap{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #4d4d4d;
+}
+div.fieldsetWrap fieldset{
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+div.fieldsetWrap fieldset legend{
+    position: absolute;
+    text-indent: -9999px;
+}
+div.fieldsetWrap fieldset div{
+    text-align: center;
+}
+div.fieldsetWrap fieldset div label{
+    font-size: 16px;
+    line-height: 30px;
+    display: inline-block;
+    width: 16%;
+    max-width: 130px;
+    min-width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #8c8c8c;
+}
+div.fieldsetWrap fieldset div label input{
+    width: 20px;
+    height: 20px;
+} */
+
+
+
+@media (max-width: 609px){
+    
+body{
+    background-color: black;
+}
+header{
+    position: fixed;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #000000;
+    border-bottom: 2px solid white;
+}
+header div.logoWrap{
+    width: 100%;
+    /* max-width: 1080px; */
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    position: relative;
+    padding: 15px 0 15px;
+    /* border-bottom: 1px solid snow ; */
+}
+header div.logoWrap span{
+    position: absolute;
+    top: 36px;
+    width: 20px;
+    line-height: 20px;
+    color: snow;
+
+}
+header div.logoWrap span:first-child{
+    left: 6%;
+}
+header div.logoWrap span:nth-of-type(2){
+    left: 16%;
+}
+header div.logoWrap h1{
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+}
+header div.logoWrap h1 a{
+    text-decoration: none;
+    font-family: 'SDSamliphopangche_Outline';
+    color: snow;
+}
+header div.logoWrap h1 a:visited{
+
+}
+header div.logoWrap h1 a:hover{
+
+}
+header div.logoWrap input{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    width: 30px;
+    height: 30px;
+}
+div.fieldsetWrap{
+    width: 100%;
+    /* border-bottom: 1px solid snow; */
+    box-sizing: border-box;
+    /* background-color: #636363; */
+    background-color: #4d4d4d;
+}
+div.fieldsetWrap fieldset{
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 5px 0;
+    /* display: ; */
+}
+div.fieldsetWrap fieldset legend{
+    position: absolute;
+    text-indent: -9999px;
+}
+div.fieldsetWrap fieldset div{
+    text-align: center;
+}
+div.fieldsetWrap fieldset div label{
+    font-size: 16px;
+    line-height: 30px;
+    display: inline-block;
+    width: 16%;
+    max-width: 130px;
+    min-width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #8c8c8c;
+}
+/*  */
+div.fieldsetWrap fieldset div label input{
+    width: 20px;
+    height: 20px;
+}
+
+
+    section{
+        padding-top: 170px;
+        width: 100%;
+        /* max-width: 1080px; */
+        /* margin: 0 auto; */
+        text-align: center;
+    }
+    section article{
+        display: inline-block;
+        width: 90%;
+        border: 2px solid snow;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: #8c8c8c;
+        margin-bottom: 20px;
+        /* background-color: greenyellow; */
+    }
+    /* section article:not(:nth-child(3n-2)){
+        margin-left: 4%;
+    } */
+    section article div.siteNameWrap{
+        margin-bottom: 10px;
+        padding-top: 5px;
+    }
+    section article div.siteNameWrap h3{
+        display: inline-block;
+        font-size: 25px;
+        width: 60%;
+        text-align: center;
+        line-height: 30px;
+    }
+    section article div.siteNameWrap span{
+        display: inline-block;
+        width: 20%;
+    }
+    section article div.siteNameWrap input{
+        float: right;
+        width: 10%;
+        text-align: left;
+        width: 20px;
+        height: 20px;
+    }
+    section article div.contentWrap{
+        /* margin-left: 5%;
+        width: 95%;
+        display: block; */
+    }
+    section article div.contentWrap ol{
+        list-style: none;
+    }
+    section article div.contentWrap ol li{
+        width: 100%;
+        margin-bottom: 10px;
+        line-height: 20px;
+        height: 20px;
+        text-align: left;
+        
+    }
+    section article div.contentWrap ol li a{
+        display: inline-block;
+        color: #000000;
+        font-size: 20px;
+        width: 70%;
+        height: 23px;
+        line-height: 23px;
+        overflow-y: hidden;
+        margin-left: 5%;
+        /* text-overflow: ellipsis; */
+    }
+    section article div.contentWrap ol li span{
+        display: inline-block;
+        width: 20%;
+    }
+}
+@media (min-width: 610px) and (max-width: 770px){
+    body{
+        background-color: black;
+    }
+    header{
+        position: fixed;
+        width: 100%;
+        margin-bottom: 30px;
+        background-color: #000000;
+        border-bottom: 2px solid white;
+    }
+    header div.logoWrap{
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+        position: relative;
+        padding: 20px 0 20px;
+    }
+    header div.logoWrap span{
+        position: absolute;
+        top: 36px;
+        width: 20px;
+        line-height: 20px;
+        color: snow;
+    
+    }
+    header div.logoWrap span:first-child{
+        left: 6%;
+    }
+    header div.logoWrap span:nth-of-type(2){
+        left: 15%;
+    }
+    header div.logoWrap h1{
+        text-align: center;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    header div.logoWrap h1 a{
+        text-decoration: none;
+        font-family: 'SDSamliphopangche_Outline';
+        color: snow;
+    }
+    header div.logoWrap h1 a:visited{
+    
+    }
+    header div.logoWrap h1 a:hover{
+    
+    }
+    header div.logoWrap input{
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        width: 35px;
+        height: 35px;
+    }
+    div.fieldsetWrap{
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #4d4d4d;
+    }
+    div.fieldsetWrap fieldset{
+        width: 100%;
+        /* max-width: 1080px; */
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    div.fieldsetWrap fieldset legend{
+        position: absolute;
+        text-indent: -9999px;
+    }
+    div.fieldsetWrap fieldset div{
+        text-align: center;
+    }
+    div.fieldsetWrap fieldset div label{
+        font-size: 16px;
+        line-height: 30px;
+        display: inline-block;
+        width: 16%;
+        max-width: 130px;
+        min-width: 100px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: #8c8c8c;
+    }
+    div.fieldsetWrap fieldset div label input{
+        width: 20px;
+        height: 20px;
+    }
+    
+    section{
+        padding-top: 170px;
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    section article{
+        display: inline-block;
+        width: 45%;
+        border: 2px solid snow;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: #8c8c8c;
+        margin-bottom: 20px;
+        /* background-color: greenyellow; */
+    }
+    section article:not(:nth-child(2n-1)){
+        margin-left: 3%;
+    }
+    section article div.siteNameWrap{
+        margin-bottom: 10px;
+        padding-top: 5px;
+    }
+    section article div.siteNameWrap h3{
+        display: inline-block;
+        font-size: 25px;
+        width: 60%;
+        text-align: center;
+        line-height: 30px;
+    }
+    section article div.siteNameWrap span{
+        display: inline-block;
+        width: 20%;
+    }
+    section article div.siteNameWrap input{
+        float: right;
+        width: 10%;
+        text-align: left;
+        width: 20px;
+        height: 20px;
+    }
+    section article div.contentWrap{
+        /* margin-left: 5%;
+        width: 95%;
+        display: block; */
+    }
+    section article div.contentWrap ol{
+        list-style: none;
+    }
+    section article div.contentWrap ol li{
+        width: 100%;
+        margin-bottom: 15px;
+        line-height: 20px;
+        height: 20px;
+        text-align: left;
+        
+    }
+    section article div.contentWrap ol li a{
+        display: inline-block;
+        color: #000000;
+        font-size: 20px;
+        width: 70%;
+        height: 23px;
+        line-height: 23px;
+        overflow-y: hidden;
+        margin-left: 5%;
+        /* text-overflow: ellipsis; */
+    }
+    section article div.contentWrap ol li span{
+        display: inline-block;
+        width: 20%;
+    }
+}
+@media (min-width: 771px){
+    body{
+        background-color: black;
+    }
+    header{
+        position: fixed;
+        width: 100%;
+        margin-bottom: 30px;
+        background-color: #000000;
+        border-bottom: 2px solid white;
+    }
+    header div.logoWrap{
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+        position: relative;
+        padding: 20px 0 20px;
+    }
+    header div.logoWrap span{
+        position: absolute;
+        top: 36px;
+        width: 20px;
+        line-height: 20px;
+        color: snow;
+    
+    }
+    header div.logoWrap span:first-child{
+        left: 6%;
+    }
+    header div.logoWrap span:nth-of-type(2){
+        left: 14%;
+    }
+    header div.logoWrap h1{
+        text-align: center;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    header div.logoWrap h1 a{
+        text-decoration: none;
+        font-family: 'SDSamliphopangche_Outline';
+        color: snow;
+    }
+    header div.logoWrap h1 a:visited{
+    
+    }
+    header div.logoWrap h1 a:hover{
+    
+    }
+    header div.logoWrap input{
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        width: 35px;
+        height: 35px;
+    }
+    div.fieldsetWrap{
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #4d4d4d;
+    }
+    div.fieldsetWrap fieldset{
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    div.fieldsetWrap fieldset legend{
+        position: absolute;
+        text-indent: -9999px;
+    }
+    div.fieldsetWrap fieldset div{
+        text-align: center;
+    }
+    div.fieldsetWrap fieldset div label{
+        font-size: 16px;
+        line-height: 30px;
+        display: inline-block;
+        width: 16%;
+        max-width: 130px;
+        min-width: 100px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: #8c8c8c;
+    }
+    div.fieldsetWrap fieldset div label input{
+        width: 20px;
+        height: 20px;
+    }
+    section{
+        padding-top: 170px;
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    section article{
+        display: inline-block;
+        width: 30%;
+        border: 2px solid snow;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: #8c8c8c;
+        margin-bottom: 20px;
+        /* background-color: greenyellow; */
+    }
+    section article:not(:nth-child(3n-2)){
+        margin-left: 3%;
+    }
+    section article div.siteNameWrap{
+        margin-bottom: 10px;
+        padding-top: 5px;
+    }
+    section article div.siteNameWrap h3{
+        display: inline-block;
+        font-size: 25px;
+        width: 60%;
+        text-align: center;
+        line-height: 30px;
+    }
+    section article div.siteNameWrap span{
+        display: inline-block;
+        width: 20%;
+    }
+    section article div.siteNameWrap input{
+        float: right;
+        width: 10%;
+        text-align: left;
+        width: 20px;
+        height: 20px;
+    }
+    section article div.contentWrap{
+        /* margin-left: 5%;
+        width: 95%;
+        display: block; */
+    }
+    section article div.contentWrap ol{
+        list-style: none;
+    }
+    section article div.contentWrap ol li{
+        width: 100%;
+        margin-bottom: 10px;
+        line-height: 20px;
+        height: 20px;
+        text-align: left;
+        /* background-color: cadetblue; */
+        /* width: 100%; */
+        
+    }
+    section article div.contentWrap ol li a{
+        display: inline-block;
+        color: #000000;
+        font-size: 20px;
+        width: 70%;
+        height: 23px;
+        line-height: 23px;
+        overflow-y: hidden;
+        margin-left: 5%;
+        /* text-overflow: ellipsis; */
+    }
+    section article div.contentWrap ol li span{
+        display: inline-block;
+        width: 20%;
+        min-width: 50px;
+    }
+}

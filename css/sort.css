@@ -1,0 +1,124 @@
+<div class = "siteTotalWrap">
+        <div class="siteBox">
+            <div>
+                <h3>
+                    <span><strong>사이트명</strong><small>-장르</small></span>
+                    <input type="checkbox">
+                </h3>
+            <!-- 이미지? -->
+            </div>
+
+            <div>
+            <span>1</span>
+            <span>
+                <a href="주소창">
+                    제목 ㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅁㄴㅇㅁㄴㅇㅁㄴㅇ
+                </a>
+                <span>조회수</span>
+                <span>답글 이미지?</span>
+            </span>
+            </div>
+
+            <div>
+            <span>2</span>
+            <span>
+                <a href="주소창">
+                    제목 ㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅁㄴㅇㅁㄴㅇㅁㄴㅇ
+                </a>
+                <span>조회수</span>
+                <span>답글 이미지?</span>
+            </span>
+            </div>
+            <div>
+            <span>3</span>
+            <span>
+                <a href="주소창">
+                    제목 ㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅁㄴㅇㅁㄴㅇㅁㄴㅇ
+                </a>
+                <span>조회수</span>
+                <span>답글 이미지?</span>
+            </span>
+            </div>
+            <div>
+            <span>4</span>
+            <span>
+                <a href="주소창">
+                    제목 ㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅁㄴㅇㅁㄴㅇㅁㄴㅇ
+                </a>
+                <span>조회수</span>
+                <span>답글 이미지?</span>
+            </span>
+            </div>
+            <div>
+            <span>5</span>
+            <span>
+                <a href="주소창">
+                    제목 ㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅁㄴㅇㅁㄴㅇㅁㄴㅇ
+                </a>
+                <span>조회수</span>
+                <span>답글 이미지?</span>
+            </span>
+        </div>
+        
+    </div>
+    
+
+    
+/* 사이트 박스 시작 */
+@media (min-width : 851px){
+    div.siteTotalWrap{
+        width: 900px;
+        margin: 0 auto;
+    }
+    div.siteTotalWrap div.siteBox{
+        float: left;
+        width: 30%;
+    }
+    div.siteTotalWrap > div:not(:nth-child(3n-2)){
+        margin-left: 3%;
+        margin-bottom: 20px;
+    }
+}
+
+/* div.siteBox::after{
+    content: '';
+    clear: both;
+    visibility: hidden;
+} */
+@media (min-width : 601px) and (max-width : 850px){
+    div.siteTotalWrap{
+        width: 700px;
+        margin: 0 auto;
+    }
+    div.siteTotalWrap div.siteBox{
+        float: left;
+        width: 47%;
+    }
+    div.siteTotalWrap > div:not(:nth-child(2n-1)){
+        margin-left: 4%;
+        margin-bottom: 20px;
+    }
+} 
+@media (max-width : 600px){
+    div.siteTotalWrap{
+        width: 500px;
+        margin: 0 auto;
+    }
+    div.siteTotalWrap div.siteBox{
+        /* float: left; */
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /* div.siteTotalWrap > div:not(:nth-child(2n-1)){
+        margin-left: 4%;
+    } */
+}
+
+div.siteTotalWrap{
+    margin-top: 20px;
+}
+div.siteTotalWrap > div.siteBox{
+    border: 4px solid skyblue;
+    box-sizing: border-box;
+    /* background-color: skyblue; */
+}
